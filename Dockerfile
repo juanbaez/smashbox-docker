@@ -16,7 +16,7 @@ RUN mkdir /root/smashdir
 
 WORKDIR /smashbox
 
-RUN git clone https://github.com/owncloud/smashbox /smashbox
+RUN git clone https://github.com/juanbaez/smashbox.git /smashbox
 RUN git checkout master
 
 RUN pip install -r requirements.txt
